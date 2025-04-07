@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "testui": "npx playwright test --ui"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VladSoldatkin/apichallenger.git"
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/VladSoldatkin/apichallenger#readme",
   "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.13.14"
   }
